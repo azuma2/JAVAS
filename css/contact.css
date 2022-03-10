@@ -1,0 +1,79 @@
+
+
+header{
+
+  margin-left:50px;
+  margin-top:20px;
+}
+
+
+
+#midasi {
+  color: #00008b;
+  font-size: 36px;
+  font-weight: bold;
+
+ 
+}
+
+ul{
+   display: flex;
+    list-style: none;
+}
+
+.parent {
+  position: relative;
+  color: #00008b;
+   display: flex;
+justify-content: space-between
+
+
+
+}
+.child {
+  padding: 10px;
+  margin: 10px;
+
+
+}
+.child0 {
+
+}
+
+.child1 {
+
+}
+.child2 {
+
+}
+.child3 {
+
+}
+
+
+#mainiti {
+  position: absolute;
+  font-size: 72px;
+  margin-top:250px;
+}
+
+.sikaku {
+  width: 800px;
+  height: 150px;
+  top: 320px;
+  background: #00008b;
+  position: relative;
+
+}
+
+
+.haikei {
+ position: absolute;
+width: 600px ;
+height: 350px ;
+  left:650px;
+    top: 150px; 
+}
+
+
+

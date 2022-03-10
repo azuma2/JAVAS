@@ -1,0 +1,679 @@
+body{
+ 
+}
+
+header{
+
+  margin-left:50px;
+  margin-top:20px;
+}
+
+.logo {
+  width: 10% ;
+  height: 10% ;
+}
+
+.head {
+  color: #a5a5a5;
+  display: flex;
+  justify-content: space-between;
+
+}
+.head2 {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+ul{
+   display: flex;
+    list-style: none;
+}
+
+
+.gazou1{
+  position: absolute;
+  width: 60% ;
+  height: 60% ;
+  left:500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+#midasi {
+  position: absolute;
+  left:250px;
+  top:100px;
+}
+
+.midasi2{
+  font-size: 48px;
+  color: 	#AC1361;
+  line-height:2;
+  font-family: 'Permanent Marker', cursive;
+}
+.midasi3{
+  font-weight: bolder;
+    color: 	#AC1361;
+      line-height:2;
+}
+.midasi4{
+  color: #a5a5a5;
+  line-height:1;
+}
+
+#sintyaku{
+
+  margin:  auto;
+	  width: 50% ;
+  	display: block;
+    padding-top: 700px;
+
+
+
+}
+.sintyaku2{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    line-height:2;
+}
+
+.sintyaku3{
+    font-weight: bold;
+
+}
+
+.sintyaku4{
+  color: #a5a5a5;
+  line-height: 500%;
+  border-bottom: solid 1px gray;
+
+}
+
+.waku{
+  border-bottom: solid 3px gray;
+  border-top: solid 3px gray;
+}
+
+#news{
+
+  	display:  inline-block;
+
+  
+
+}
+
+.news2{
+
+      color: #ffffff;
+  width: 100px;
+  height: 30px;
+  background:  #AC1361;
+  border-radius: 30px;
+     margin : 30px ;
+      z-index: 500;
+        padding: 5px;
+
+}
+
+
+
+
+#about{
+    position: relative;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+    	text-align: center;
+  top:150px;
+  z-index: 100;
+}
+
+.about2{
+  font-size: 12px;
+  color: 	#AC1361;
+  font-family: 'Permanent Marker', cursive;
+  z-index: 100;
+}
+
+.about3{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height:3;
+
+}
+
+.about4{
+  text-align: left;
+  display: inline-block;
+  	  width: 100% ;
+
+}
+
+.gazou2{
+  position: absolute;
+  width: 60% ;
+  height: 80% ;
+  left:450px;
+    top:100px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.sikaku{
+
+  height: 400px;
+    top: -100px;
+  background: 	#F5F5F5;
+  position: relative;
+  z-index: 1;
+}
+
+#service{
+    margin:  auto;
+	  width: 50% ;
+
+
+}
+
+.service2{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+}
+
+.service3{
+  font-weight: bold;
+    line-height:2;
+
+}
+
+.sgrid{
+
+    text-align: center;
+ width: 100%
+      z-index: 100;
+    display: grid;
+    grid-template-rows: 200px 200px;
+   // grid-template-columns: 1fr 1fr ;
+}
+
+
+
+
+
+
+.service10{
+  padding: 40px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #B31667;
+}
+
+.service11{
+    color: #ffffff;
+    font-weight: bold;
+    line-height:2;
+}
+
+.service12{
+    color: #ffffff;
+    text-align: left;
+    display: inline-block;
+}
+
+.service20{
+  text-align: left;
+  padding: 40px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #B35B8B;
+  display: flex;
+
+}
+
+
+.service21a{
+display: inline;
+}
+
+
+
+.service21{
+    color: #ffffff;
+    font-weight: bold;
+    line-height:2;
+
+}
+
+.service22{
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.service30{
+    text-align: left;
+    padding: 40px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: 	#B2889E;
+    display: flex;
+  
+}
+
+.service31a{
+  display: inline;
+}
+
+.service31{
+    color: #ffffff;
+    font-weight: bold;
+    line-height:2;
+}
+
+.service32{
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.sgazou1{
+  width: 40% ;
+  height: 40% ;
+  left:50px;
+}
+
+.sgazou2{
+    padding: 20px;
+   display: flex;
+  width: 40% ;
+  height: 80% ;
+  left:50px;
+}
+
+.sgazou3{
+      padding: 20px;
+   display: flex;
+  width: 40% ;
+  height: 80% ;
+  left:50px;
+}
+
+
+
+
+
+
+#blog{
+    margin:  auto;
+	  width: 100% ;
+    display: inline-block;
+    text-align: center;
+  z-index: 100;
+
+margin-top: 100px;
+  padding-top: 100px;
+  background: #f5f5f5;
+
+}
+
+.blog2a{
+	  width: 50% ;
+}
+
+.blog2{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+      z-index: 100;
+}
+
+.blog3{
+
+  font-weight: bold;
+    line-height:2;
+      z-index: 100;
+      	display: block;
+
+}
+
+.blogbox{
+    position: relative;
+  justify-content: center;
+  	display: flex; 
+
+}
+
+.aicon{
+    position: absolute;
+  color: #ffffff;
+  background: 	#AC1361;
+  padding: 5px;
+    border-radius: 20px  0px 0px ;
+  top: 5px;
+  left: 5px;
+}
+
+
+.blog10{
+   z-index: 100;
+    position: relative;
+               padding: 5px;
+               margin: 10px 20px;
+                 	text-align: left;
+}
+
+
+.blog11{
+  background: 	#ffffff;
+        z-index: 100;
+        margin:0;
+}
+
+
+.bgazou1{
+  width: 250px ;
+  height: 170px ;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.bwak{
+    background: 	#ffffff;
+      width: 250px;
+  height: 150px;
+    position: absolute;
+          z-index: 10;
+}
+
+
+.blog20{
+   z-index: 100;
+    position: relative;
+               padding: 5px;
+margin: 10px 20px;
+  	text-align: left;
+}
+
+
+.blog21{
+  background: 	#ffffff;
+        z-index: 100;
+        margin:0;
+          border-radius: 0px 0px 20px 20px;
+}
+
+
+.bgazou2{
+  width: 250px ;
+  height: 170px ;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.blog30{
+   z-index: 100;
+    position: relative;
+               padding: 5px;
+               margin: 10px 20px;
+                 	text-align: left;
+}
+
+
+.blog31{
+  background: 	#ffffff;
+        z-index: 100;
+        margin:0;
+}
+
+
+.bgazou3{
+  width: 250px ;
+  height: 170px ;
+ 
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.itiran{
+    border: solid 2px #AC1361;
+  color:#AC1361;
+  padding: 20px;
+      border-radius: 30px;
+     margin : 30px ;
+
+    width: 100px ;
+
+  margin-left: 50%;
+
+}
+
+
+
+
+
+#company{
+
+    padding-top: 150px;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+  	text-align: center;
+
+}
+
+.company1{
+  	text-align: left;
+
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+      z-index: 100;
+}
+
+.company2{
+    	text-align: left;
+  font-weight: bold;
+    line-height:2;
+      z-index: 100;
+
+}
+
+
+
+
+table{
+      text-align: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+th{
+  background-color:#DEEFFF;
+     	text-align: left;
+  border:1px black solid;
+  padding:10px ;
+     width: 300px;
+}
+
+td{
+    width: 500px;
+    	text-align: left;
+  border:1px black solid;
+  padding:10px ;
+}
+
+
+
+
+#saiyou{
+    
+  position: relative;
+width: 100%;
+  	display: flex; 
+
+  top:300px;
+  z-index: 100;
+}
+
+.saiyou1a{
+ width: 100% ;
+  height: 100% ;
+  position: relative;
+
+}
+
+.saiyou1b{
+ width: 100% ;
+  height: 100% ;
+  position: relative;
+ 
+}
+
+.saiyou2{
+   left:25%;
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  top: 50%;
+  	display: block;
+    	text-align: center;
+}
+
+.saiyou3{
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+    	display: block;
+  top: 50%;
+  left: 40%;
+   	text-align: center;
+}
+
+.shusei1{
+    position: relative;
+ width: 50% ;
+  height: 100% ;
+   	text-align: center;
+}
+
+.shusei2{
+    position: relative;
+     	text-align: center;
+ width: 50% ;
+  height: 100% ;
+}
+
+
+
+#saigo{
+
+width: 100%;
+        	text-align: center;
+
+     	display: block;
+
+}
+
+.saigo1{
+      	text-align: center;
+        padding: 10px;
+          	display: flex;
+         	text-align: center;
+           justify-content: center
+}
+
+.saigosen{
+   background: 	#AC1361;
+     width: 2px;
+height: 40px;
+  margin-left: 50%;
+}
+.saigo2a{
+  width: 100%;
+  	display: flex;
+         	text-align: center;
+           justify-content: center
+
+}
+
+.saigo2{
+    	display: block;
+
+      color: #ffffff;
+  width: 200px;
+
+  background: linear-gradient(#ff34ff, #8646ff);
+  border-radius: 80px;
+     margin : 30px ;
+
+        padding: 30px;
+          box-shadow: 1px 10px 3px #B2889E;
+            z-index: 1;
+            
+position: relative;
+}
+
+.saigo2::before{
+    content: "";
+ background: url(../img/mailicon.svg);
+     display: inline-block;
+
+position: absolute;
+  top:20px;
+  left:30px;
+  width: 30px;
+height: 30px;
+  z-index: 2000;
+
+}
+
+
+.shusei3{
+ width: 100%;
+  	display: block;
+         	text-align: center;
+
+}
+
+
+.push {
+  height: 200px;
+}
+
+footer{
+
+    margin:  auto;
+  bottom: 0;
+  	display: block;
+    	text-align: center;
+}
+
+
+.ligosaigo{
+    z-index: 100;
+    height: 50px;
+  background: 	#B2889E;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
