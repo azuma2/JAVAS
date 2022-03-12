@@ -1,3 +1,26 @@
+
+@media screen and (max-width: 768px) {
+  p {
+    color: blue;
+  }
+
+
+.nav{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  background: #eee;
+  transition: .7s;
+  text-align: center;
+}
+.nav ul{
+  padding-top: 80px;
+}
+.nav ul li{
+  list-style-type: none;
+  margin-top: 50px;
+}
 .menu {
   display: inline-block;
   width: 36px;
@@ -37,7 +60,11 @@
   top: 14px;
   transform: rotate(-45deg);
 }
+.in{
+  transform: translateX(100%);
+}
 
+}
 
 
 
@@ -84,9 +111,18 @@ font-size: 32px;
 
 }
 
+
+
+.menu2{
+   display: flex;
+
+
+}
+
+
 ul{
 
-   display: flex;
+
     list-style: none;
   margin-top: -8px;
 }
