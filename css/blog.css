@@ -4,12 +4,14 @@
 
 .nav{
   position: absolute;
+  top: 1px;
   height: 100vh;
   width: 100%;
   left: -100%;
   background: #eee;
   transition: .7s;
   text-align: center;
+      display:none;
 }
 .nav ul{
   padding-top: 80px;
@@ -289,6 +291,9 @@ footer{
   display: block;
 }
 
+.nav{
+  display: block;
+}
 
 
   }
