@@ -1,16 +1,4 @@
 
-@media screen and (max-width: 768px) {
-  
-
-.head {
-    display:none;
-}
-
-.menu {
-  display: block;
-}
-
-  }
 
 
 
@@ -36,8 +24,8 @@
   height: 32px;
   cursor: pointer;
   position: relative;
-  left: 20px;
-  top: 20px;
+  left: 90%;
+    top: -20px;
 }
 .menu__line--top,
 .menu__line--middle,
@@ -101,6 +89,8 @@ header{
 
 .logo {
 font-size: 32px;
+display: block;
+
 }
 
 .head {
@@ -288,3 +278,17 @@ footer{
       margin: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  
+
+.menu2 {
+    display:none;
+}
+
+.menu {
+  display: block;
+}
+
+
+
+  }
