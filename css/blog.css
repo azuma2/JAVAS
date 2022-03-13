@@ -1,8 +1,17 @@
 
 @media screen and (max-width: 768px) {
-  p {
-    color: blue;
+  
+
+.head {
+    display:none;
+}
+
+.menu {
+  display: block;
+}
+
   }
+
 
 
 .nav{
@@ -22,7 +31,7 @@
   margin-top: 50px;
 }
 .menu {
-  display: inline-block;
+  display: none;
   width: 36px;
   height: 32px;
   cursor: pointer;
@@ -64,16 +73,9 @@
   transform: translateX(100%);
 }
 
-}
 
 
 
-a {
- 
-  color: inherit;
-text-decoration: none;
-
-}
 
 
 a {
@@ -112,11 +114,8 @@ font-size: 32px;
 }
 
 
-
 .menu2{
    display: flex;
-
-
 }
 
 
@@ -288,3 +287,4 @@ footer{
 .ink{
       margin: 15px;
 }
+
