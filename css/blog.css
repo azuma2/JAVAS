@@ -64,7 +64,13 @@
 }
 
 
+.menu2{
+   display: flex;
+}
 
+.menu3 {
+    display:flex;
+}
 
 
 
@@ -106,13 +112,7 @@ display: block;
 }
 
 
-.menu2{
-   display: flex;
-}
 
-.menu3 {
-    display:flex;
-}
 
 ul{
 
